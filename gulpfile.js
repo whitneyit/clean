@@ -34,7 +34,7 @@ gulp.task('test', ['clean:coverage'], function (done) {
         .pipe(istanbul())
         .pipe(istanbul.hookRequire())
         .on('finish', function () {
-            gulp.src(['tests/**/*.spec.js'])
+            gulp.src(['tests/specs/**/*.spec.js'])
                 .pipe(jasmine())
                 .pipe(istanbul.writeReports({
                     'dir'       : 'coverage/lcov',
