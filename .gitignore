@@ -1,0 +1,18 @@
+# Directories
+.sass-cache/**
+.tsc/**
+bower_components/**
+coverage/**
+dist/**
+docs/**
+node_modules/**
+typings/**
+
+# Files
+.env.yml
+.env.*.yml
+npm-debug.log
+
+# Crap
+.DS_Store
+.Thumbs.db

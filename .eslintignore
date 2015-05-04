@@ -1,0 +1,12 @@
+# Directories
+.sass-cache/**
+bower_components/**
+coverage/**
+dist/**
+docs/**
+node_modules/**
+typings/**
+
+# Files
+build/head.js
+build/tail.js

@@ -1,0 +1,41 @@
+{
+  "name": "@whitneyit/clean",
+  "description": "A wrapper around sindresorhus/del that outputs the cleaned directories",
+  "version": "1.0.0",
+  "homepage": "https://github.com/whitneyit/clean",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:whitneyit/clean.git"
+  },
+  "private": false,
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "whitneyit",
+    "clean"
+  ],
+  "author": "James Whitney <james@whitney.io>",
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/whitneyit/clean/issues"
+  },
+  "scripts": {
+    "test": "gulp",
+    "coveralls": "cat ./coverage/lcov/lcov.info | ./node_modules/.bin/coveralls"
+  },
+  "dependencies": {
+    "@whitneyit/log": "^1.0.0",
+    "del": "^1.1.1"
+  },
+  "devDependencies": {
+    "@whitneyit/middle": "^1.0.2",
+    "coveralls": "^2.11.2",
+    "gulp": "^3.8.11",
+    "gulp-eslint": "^0.11.1",
+    "gulp-istanbul": "^0.8.1",
+    "gulp-jasmine": "^2.0.1",
+    "gulp-jscs": "^1.6.0",
+    "gulp-serve": "^0.3.1",
+    "proxyquire": "^1.4.0"
+  }
+}
