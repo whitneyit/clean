@@ -7,7 +7,7 @@ describe('clean', function () {
 
         proxyquire = require('proxyquire'),
 
-        mockDel  = require('../mocks/del.mock'),
+        mockDel = require('../mocks/del.mock'),
 
         clean = proxyquire('../../lib/clean', {
             'del' : mockDel,

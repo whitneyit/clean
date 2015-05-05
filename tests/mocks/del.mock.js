@@ -2,7 +2,7 @@
 
 var
     /**
-     * @name whitneyit.log.tests.mocks.del#caught
+     * @name whitneyit.clean.tests.mocks.del#caught
      *
      * @description
      * The caught Error.
@@ -10,7 +10,7 @@ var
     caught = null,
 
     /**
-     * @name whitneyit.log.tests.mocks.del#err
+     * @name whitneyit.clean.tests.mocks.del#err
      *
      * @description
      * The Error to throw.
@@ -18,7 +18,7 @@ var
     err = null,
 
     /**
-     * @name whitneyit.log.tests.mocks.del#last
+     * @name whitneyit.clean.tests.mocks.del#last
      *
      * @description
      * The previous glob that was passed in.
