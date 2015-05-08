@@ -31,7 +31,9 @@ gulp.task('serve:coverage', serve({
 
 gulp.task('test', ['clean:coverage'], function (done) {
     gulp.src(['lib/**/*.js'])
-        .pipe(istanbul())
+        .pipe(istanbul({
+            'includeUntested' : true
+        }))
         .pipe(istanbul.hookRequire())
         .on('finish', function () {
             gulp.src(['tests/specs/**/*.spec.js'])
