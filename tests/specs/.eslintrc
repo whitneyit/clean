@@ -3,6 +3,7 @@
 rules:
     brace-style: 0
     guard-for-in: 0
+    newline-after-var: 0
     no-array-constructor: 0
     no-bitwise: 0
     no-console: 0
@@ -11,5 +12,8 @@ rules:
     no-new-wrappers: 0
     no-self-compare: 0
     no-void: 0
+    strict:
+        - 2
+        - "function"
 
 # vim: set ft=yaml syn=yaml et sw=4 sts=4 ts=4 :

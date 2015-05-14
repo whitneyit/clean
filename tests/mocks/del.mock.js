@@ -40,7 +40,7 @@ var
      * @param {Function} cb - The Function to be called upon "deleting" the
      *                        Array of paths from `glob`.
      *
-     * @return {Void}
+     * @return {void}
      */
     del = function mockDel (glob, cb) {
         setTimeout(function () {

@@ -8,5 +8,4 @@ node_modules/**
 typings/**
 
 # Files
-build/head.js
-build/tail.js
+build/includes/**/*.tmpl.js
