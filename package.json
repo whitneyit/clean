@@ -3,10 +3,7 @@
   "description": "A wrapper around sindresorhus/del that outputs the cleaned directories",
   "version": "1.0.1",
   "homepage": "https://github.com/whitneyit/clean",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com:whitneyit/clean.git"
-  },
+  "repository": "whitneyit/clean",
   "private": false,
   "license": "MIT",
   "main": "index.js",
