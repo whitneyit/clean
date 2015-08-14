@@ -1,7 +1,7 @@
 {
   "name": "@whitneyit/clean",
   "description": "A wrapper around sindresorhus/del that outputs the cleaned directories",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/whitneyit/clean",
   "repository": "whitneyit/clean",
   "private": false,
